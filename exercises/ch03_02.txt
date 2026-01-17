@@ -1,0 +1,13 @@
+2.  Which of the following are invalid variable names? Why? 
+
+Int            char     6_05
+Calloc         Xx       alpha_beta_routine
+floating       _1312    z
+ReInitialize   _        A$ 
+
+
+=> Invalid variable names:
+
+char - reserved name in C
+6_05 - variable names cannot start with a number
+A$ - variable names cannot contain special characters
