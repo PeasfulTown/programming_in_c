@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-int number = 137;
-
+int number = 101; // NOTE: program can enter an infinite loop because of
+                  // floating point precision: when calculating the difference
+                  // between sq(guess) and number
 bool prime(void);
 float squareRoot(void);
 float absoluteValue(float n);
@@ -34,7 +35,7 @@ bool prime(void)
 
 float squareRoot(void)
 {
-    const float epsilon = .0001;
+    const float epsilon = .00001;
     float guess = 1.0;
 
     while (absoluteValue(guess * guess - number) >= epsilon) {
