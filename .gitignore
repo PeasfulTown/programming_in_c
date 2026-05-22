@@ -1,1 +1,5 @@
-**/*a.out
+Makefile
+t.c
+o.o
+**/*.out
+

@@ -7,4 +7,3 @@
 #define OUNCES_PER_GRAM                 0.035
 #define GRAMS_PER_OUNCE                 1 / OUNCES_PER_GRAM
 
-
