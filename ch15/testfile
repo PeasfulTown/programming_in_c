@@ -1,0 +1,5 @@
+the program displays the contents of the file  infile at the terminal. Try it
+and see! Actually, the program serves the same basic function as the  cat
+command under Unix, and you can use it to display the contents of any text file
+you choose.
+
